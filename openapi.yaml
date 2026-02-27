@@ -63,6 +63,17 @@ info:
 
     See: https://paynkolay.com.tr/entegrasyon/07-test-cards.php
 
+    ## Test Credentials
+
+    Use these credentials with the **Test** server. This test merchant has no real payment processing capability.
+
+    | Credential | Value |
+    |------------|-------|
+    | **sx** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==` |
+    | **sx-list** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==\|3hJpHVF2cqvcCZ4q6F7rcA==` |
+    | **sx-cancel** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==\|yDUZaCk6rsoHZJWI3d471A/+TJA7C81X` |
+    | **merchantSecretKey** | `_YckdxUbv4vrnMUZ6VQsr` |
+
   version: 1.0.0
   contact:
     name: PayNKolay
