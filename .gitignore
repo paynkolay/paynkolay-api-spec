@@ -6,3 +6,4 @@ result-*
 # editor and misc
 .vs/
 .vscode/
+settings.local.json
