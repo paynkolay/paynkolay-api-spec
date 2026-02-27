@@ -21,7 +21,7 @@
         buildInputs = [
           pkgs.openapi-generator-cli
           pkgs.nodejs
-          pkgs.redocly-cli
+          pkgs.redocly
         ];
       };
     });
