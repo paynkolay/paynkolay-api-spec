@@ -38,6 +38,31 @@ info:
     | 840  | USD      |
     | 978  | EUR      |
 
+    ## Test Cards
+
+    Use these cards with the **Test** server (`paynkolaytest.nkolayislem.com.tr`).
+
+    | Bank | Card Number | Expiry | CVV | Password |
+    |------|-------------|--------|-----|----------|
+    | Finansbank | 4155650100416111 | 01/2030 | 715 | — |
+    | Garanti Bankasi | 5289394722895016 | 01/2026 | 030 | — |
+    | Garanti Bankasi | 5549600797792011 | 08/2027 | 460 | — |
+    | Garanti Bankasi | 5549603469426017 | 11/2027 | 916 | 147852 |
+    | Halkbank | 4531444531442283 | 12/2026 | 001 | — |
+    | Ziraat Bankasi | 4546711234567894 | 12/2026 | 000 | — |
+    | Aktif Yatirim Bankasi | 4531444531442283 | 12/2026 | 000 | — |
+    | T. Finans Katilim Bankasi | 5218487962459752 | 12/2026 | 000 | — |
+    | TEB (Mastercard) | 5101385101385104 | 12/2030 | 000 | — |
+    | Halkbank (Mastercard) | 5404355404355405 | 12/2030 | 000 | — |
+    | ING Bank (Visa) | 4555714555714556 | 12/2030 | 000 | — |
+    | Anadolubank | 4258464258464253 | 12/2026 | 000 | — |
+    | Denizbank | 5200190006338608 | 01/2030 | 410 | 123456 |
+    | Akbank | 4355093000315232 | 01/2028 | 264 | 123456 |
+    | Akbank | 4355093000777068 | 11/2040 | 313 | 123456 |
+    | Vakifbank | 5421190122090656 | 04/2028 | 916 | 123456 |
+
+    See: https://paynkolay.com.tr/entegrasyon/07-test-cards.php
+
   version: 1.0.0
   contact:
     name: PayNKolay
