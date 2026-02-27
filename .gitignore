@@ -2,3 +2,7 @@
 result
 result-*
 .direnv/
+
+# editor and misc
+.vs/
+.vscode/
