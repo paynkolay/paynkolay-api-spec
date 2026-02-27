@@ -246,7 +246,7 @@ paths:
                 cardNumber:
                   type: string
                   description: Full card number or first 8 digits (BIN).
-                  example: '41556501'
+                  example: '45314445'
                 iscardvalid:
                   type: string
                   description: If `true`, validates the card. If `false`, uses BIN only.
@@ -1094,7 +1094,7 @@ components:
         cardNumber:
           type: string
           description: Credit card number.
-          example: '4546711234567894'
+          example: '4531444531442283'
         use3D:
           type: string
           description: Enable 3D Secure (`true` or `false`).
