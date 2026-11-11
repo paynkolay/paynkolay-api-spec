@@ -42,39 +42,48 @@ info:
 
     Use these cards with the **Test** server (`paynkolaytest.nkolayislem.com.tr`).
 
-    | Bank | Card Number | Expiry | CVV | Password |
-    |------|-------------|--------|-----|----------|
-    | Finansbank | 4155650100416111 | 01/2030 | 715 | — |
-    | Garanti Bankasi | 5289394722895016 | 01/2026 | 030 | — |
-    | Garanti Bankasi | 5549600797792011 | 08/2027 | 460 | — |
-    | Garanti Bankasi | 5549603469426017 | 11/2027 | 916 | 147852 |
-    | Halkbank | 4531444531442283 | 12/2026 | 001 | — |
-    | Ziraat Bankasi | 4546711234567894 | 12/2026 | 000 | — |
-    | Aktif Yatirim Bankasi | 4531444531442283 | 12/2026 | 000 | — |
-    | T. Finans Katilim Bankasi | 5218487962459752 | 12/2026 | 000 | — |
-    | TEB (Mastercard) | 5101385101385104 | 12/2030 | 000 | — |
-    | Halkbank (Mastercard) | 5404355404355405 | 12/2030 | 000 | — |
-    | ING Bank (Visa) | 4555714555714556 | 12/2030 | 000 | — |
-    | Anadolubank | 4258464258464253 | 12/2026 | 000 | — |
-    | Denizbank | 5200190006338608 | 01/2030 | 410 | 123456 |
-    | Akbank | 4355093000315232 | 01/2028 | 264 | 123456 |
-    | Akbank | 4355093000777068 | 11/2040 | 313 | 123456 |
-    | Vakifbank | 5421190122090656 | 04/2028 | 916 | 123456 |
+    | Bank | Card Number | Expiry | CVV |
+    |------|-------------|--------|-----|
+    | QNB Finansbank | 4155650100416111 | 01/2030 | 715 |
+    | Garanti BBVA | 5289394722895016 | 01/2030 | 030 |
+    | Ziraat Bankası | 4546711234567894 | 12/2026 | 000 |
+    | Ziraat Bankası | 4446763125813623 | 12/2040 | 000 |
+    | Denizbank | 5200190009721495 | 01/2030 | 462 |
+    | Türkiye Finans | 5218487962459752 | 12/2040 | 000 |
+    | Türkiye Finans | 6060433087290190 | 12/2040 | 000 |
+    | Türkiye Finans | 4799150896081734 | 12/2040 | 000 |
+    | Türkiye Finans | 5377193762823307 | 12/2040 | 000 |
+    | ING Bank | 4555714555714556 | 12/2030 | 000 |
+    | ING Bank | 5269737320050521 | 12/2040 | 000 |
+    | Anadolubank | 4258464258464253 | 12/2026 | 000 |
+    | Akbank | 5404355404355405 | 12/2026 | 001 |
+
+    The live list is maintained on the documentation site and may change; check it if a card stops working.
 
     See: https://paynkolay.com.tr/entegrasyon/07-test-cards.php
 
     ## Test Credentials
 
-    Use these credentials with the **Test** server. This test merchant has no real payment processing capability.
+    The test environment is shared and these credentials are public. Use them with the **Test** server only.
+    Test merchant: **400000273** (client id `118591467`). Production credentials are shown in your paynkolay panel.
 
     | Credential | Value |
     |------------|-------|
-    | **sx** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==` |
-    | **sx-list** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==\|3hJpHVF2cqvcCZ4q6F7rcA==` |
-    | **sx-cancel** | `118591467\|bScbGDYCtPf7SS1N6PQ6/+58rFhW1WpsWINqvkJFaJlu6bMH2tgPKDQtjeA5vClpzJP24uA0vx7OX53cP3SgUspa4EvYix+1C3aXe++8glUvu9Oyyj3v300p5NP7ro/9K57Zcw==\|yDUZaCk6rsoHZJWI3d471A/+TJA7C81X` |
-    | **merchantSecretKey** | `_YckdxUbv4vrnMUZ6VQsr` |
+    | **sx** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==` |
+    | **sx-list** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==\|3hJpHVF2cqvcCZ4q6F7rcA==` |
+    | **sx-cancel** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==\|yDUZaCk6rsoHZJWI3d471A/+TJA7C81X` |
+    | **merchantSecretKey** | `_viH5wUS4HiBmmw9uGybN` |
 
-  version: 1.0.0
+    Insurance payments (`/Vpos/v1/InsurancePayment`) use separate test merchants (400001647, 400001820);
+    see https://paynkolay.com.tr/entegrasyon/46-insurance-payment.php
+
+    ## Notifications
+
+    There is no server-to-server webhook for API payments. 3D Secure results are POSTed to your
+    `successUrl` / `failUrl`; non-3D results are returned synchronously. Use `PaymentList` or
+    `PfTransactionReportList` to confirm the final state of a transaction.
+
+  version: 1.1.0
   contact:
     name: PayNKolay
     url: https://paynkolay.com.tr
@@ -101,6 +110,10 @@ tags:
     description: Card tokenization and stored card operations
   - name: PreAuthorization
     description: Pre-authorization (blocked amount) operations
+  - name: Reporting
+    description: Transaction reporting
+  - name: Insurance
+    description: Insurance-company payments with national ID (MCC 6300 merchants only)
 
 security:
   - SxToken: []
@@ -116,9 +129,13 @@ paths:
       description: |
         Initiates a credit card payment. Supports 3D Secure, installments, card storage, and pre-authorization.
 
+        To keep card data off your servers, prefer the hosted payment page or iframe integration
+        (https://paynkolay.com.tr/entegrasyon/08-iframe-usage.php) over posting card fields from your own form.
+
         - Set `transactionType` to `SALES` for a normal payment, `PRESALES` for pre-authorization.
         - Set `use3D` to `true` for 3D Secure.
-        - Set `csAutoSave` to `true` and provide `csCustomerKey` to save the card during payment.
+        - Set `csAutoSave` to `true` and provide `csCustomerKey` (max 11 characters) to save the card during a 3D Secure payment. `csCardAlias` is optional.
+        - Non-3D (`use3D=false`) requires a merchant-level permission requested through your sales representative; requests above the merchant's non-3D limit are redirected to 3D.
         - Provide `csTranId` or `csToken` to pay with a previously stored card.
 
         **Hash computation:**
@@ -127,7 +144,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               $ref: '#/components/schemas/PaymentRequest'
       responses:
@@ -178,7 +195,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               allOf:
                 - $ref: '#/components/schemas/PaymentRequest'
@@ -214,12 +231,12 @@ paths:
           application/x-www-form-urlencoded:
             schema:
               type: object
-              required: [sx, referenceCode]
+              required: [Sx, ReferenceCode]
               properties:
-                sx:
+                Sx:
                   type: string
                   description: Merchant token.
-                referenceCode:
+                ReferenceCode:
                   type: string
                   description: PayNKolay reference code (starts with IKSIRPF).
                   example: IKSIRPF450511
@@ -242,7 +259,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, amount, cardNumber]
@@ -263,6 +280,9 @@ paths:
                   description: If `true`, validates the card. If `false`, uses BIN only.
                   enum: ['true', 'false']
                   default: 'false'
+                hosturl:
+                  type: string
+                  description: Your site URL.
       responses:
         '200':
           description: Installment options
@@ -284,7 +304,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, date, hashDatav2]
@@ -312,7 +332,8 @@ paths:
       operationId: listPayments
       summary: List payments
       description: |
-        Retrieves a list of payments within a date range. Supports pagination.
+        Retrieves payments within a date range (max 1 month), optionally filtered by clientRefCode.
+        Refunds appear as separate rows dated on the refund day; a cancel updates the sale row.
 
         **Hash computation:**
         `sx + "|" + startDate + "|" + endDate + "|" + clientRefCode + "|" + merchantSecretKey`
@@ -320,7 +341,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, startDate, endDate, hashDatav2]
@@ -342,14 +363,6 @@ paths:
                 hashDatav2:
                   type: string
                   description: Request hash.
-                pageCount:
-                  type: string
-                  description: Page index (0-based, optional).
-                  example: '0'
-                pageSize:
-                  type: string
-                  description: Results per page (optional).
-                  example: '25'
       responses:
         '200':
           description: Payment list
@@ -377,7 +390,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, referenceCode, type, amount, trxDate, hashDatav2]
@@ -428,10 +441,10 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
-              required: [sx, clientRefCode, amount, successUrl, failUrl, rnd, transactionType, hashDatav2]
+              required: [sx, clientRefCode, amount, successUrl, failUrl, rnd, transactionType, use3D, hashDatav2]
               properties:
                 sx:
                   type: string
@@ -484,7 +497,7 @@ paths:
                   enum: ['true', 'false']
                 cardHolderIP:
                   type: string
-                  description: Customer's IPv4 address.
+                  description: Customer's IP address (IPv4 or IPv6).
                 inputNamesurname:
                   type: string
                   description: Pre-filled name on payment page.
@@ -525,7 +538,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, q, hashDatav2]
@@ -542,7 +555,7 @@ paths:
                   description: Request hash.
                 cardHolderIP:
                   type: string
-                  description: Customer's IPv4 address.
+                  description: Customer's IP address (IPv4 or IPv6).
       responses:
         '200':
           description: Link deleted
@@ -562,22 +575,23 @@ paths:
         Creates a payment link and optionally sends it to the customer via SMS and/or email.
 
         **Hash computation:**
-        `sx + "|" + FULL_NAME + "|" + EMAIL + "|" + GSM + "|" + AMOUNT + "|" + LINK_EXPIRATION_TIME + "|" + merchantSecretKey`
+        `TOKEN + "|" + FULL_NAME + "|" + EMAIL + "|" + GSM + "|" + AMOUNT + "|" + LINK_EXPIRATION_TIME + "|" + merchantSecretKey`
       tags: [PayByLink]
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
-              required: [TOKEN, FULL_NAME, AMOUNT, LINK_EXPIRATION_TIME, hashDatav2]
+              required: [TOKEN, FULL_NAME, EMAIL, GSM, LINK_AMOUNT_FIXING_TYPE, AMOUNT, LINK_EXPIRATION_TIME, IS_3D_MUST, PAYMENT_SUBJECT, PRODUCT_TYPE, PRODUCT_TYPE_VALUE, PRODUCT_NAME, SEND_SMS, SEND_EMAIL, CLIENT_REFERENCE_CODE, hashDatav2]
               properties:
                 TOKEN:
                   type: string
                   description: Merchant token (sx value).
                 FULL_NAME:
                   type: string
-                  description: Customer full name.
+                  description: Customer full name (max 100 characters).
+                  maxLength: 100
                   example: Tuna Atlas
                 EMAIL:
                   type: string
@@ -608,6 +622,26 @@ paths:
                 PAYMENT_SUBJECT:
                   type: string
                   description: Payment subject/title.
+                  example: Kombi bakım ücreti
+                PRODUCT_TYPE:
+                  type: string
+                  description: |
+                    Product/service type. Determines what `PRODUCT_TYPE_VALUE` must contain:
+                    - `DELIVERY`: delivery date (YYYY-MM-DD), today or a past date
+                    - `NEW_SALE`: expected delivery date (YYYY-MM-DD), today or a future date
+                    - `DEBT`: debt basis code `1`, `2`, `3` or `4`
+                    - `GUARANTEE`: guarantee code `5`, `6`, `7`, `8` or `9`
+                  enum: [DELIVERY, NEW_SALE, DEBT, GUARANTEE]
+                  example: DELIVERY
+                PRODUCT_TYPE_VALUE:
+                  type: string
+                  description: Value matching `PRODUCT_TYPE` (date or code, see above).
+                  example: '2026-11-10'
+                PRODUCT_NAME:
+                  type: string
+                  description: Product/service name (max 200 characters).
+                  maxLength: 200
+                  example: Kombi Bakım Hizmeti
                 EXPLANATION:
                   type: string
                   description: Payment description.
@@ -638,7 +672,7 @@ paths:
                   example: '3'
                 cardHolderIP:
                   type: string
-                  description: Customer's IPv4 address.
+                  description: Customer's IP address (IPv4 or IPv6).
       responses:
         '200':
           description: Payment link created and sent
@@ -690,7 +724,7 @@ paths:
           application/json:
             schema:
               type: object
-              required: [sx, InstructionNumber, hashDatav2]
+              required: [sx, InstructionNumber, hashDatav2, cardHolderIP]
               properties:
                 sx:
                   type: string
@@ -702,6 +736,9 @@ paths:
                 hashDatav2:
                   type: string
                   description: Request hash.
+                cardHolderIP:
+                  type: string
+                  description: Customer's IP address (IPv4 or IPv6).
       responses:
         '200':
           description: Recurring payment cancelled
@@ -723,7 +760,7 @@ paths:
           application/json:
             schema:
               type: object
-              required: [sx]
+              required: [sx, startDate, endDate, cardHolderIP]
               properties:
                 sx:
                   type: string
@@ -740,6 +777,13 @@ paths:
                 gsm:
                   type: string
                   description: Filter by phone number.
+                instructionNumber:
+                  type: string
+                  description: Filter by instruction number (INSTRUCTION_NUMBER in the create response, INSTRUCTION_ID in this list).
+                  example: ACPL00395013
+                cardHolderIP:
+                  type: string
+                  description: Customer's IP address (IPv4 or IPv6).
       responses:
         '200':
           description: Recurring payment list
@@ -751,74 +795,6 @@ paths:
   # ---------------------------------------------------------------------------
   # Card Storage
   # ---------------------------------------------------------------------------
-  /Vpos/Payment/CardStorageCardRegister:
-    post:
-      operationId: registerCard
-      summary: Register (store) a card
-      description: |
-        Stores a credit card for future use. Requires a same-day transaction reference code.
-
-        **Hash computation:**
-        `sx + "|" + cardNumber + "|" + cvv + "|" + merchantSecretKey`
-      tags: [CardStorage]
-      requestBody:
-        required: true
-        content:
-          application/x-www-form-urlencoded:
-            schema:
-              type: object
-              required: [sx, customerKey, cardNumber, cvv, referanceCode, hashDatav2]
-              properties:
-                sx:
-                  type: string
-                  description: Merchant token.
-                customerKey:
-                  type: string
-                  description: Customer identifier (TCKN, phone number, or passport number).
-                  example: '05349893742'
-                cardNumber:
-                  type: string
-                  description: Credit card number.
-                customerName:
-                  type: string
-                  description: Customer name.
-                  example: Tuna Atlas
-                customerAliance:
-                  type: string
-                  description: Card alias/nickname.
-                  example: Ziraat Test Karti
-                expirateMonth:
-                  type: string
-                  description: Expiration month (MM).
-                  example: '12'
-                expirationYear:
-                  type: string
-                  description: Expiration year (YYYY).
-                  example: '2026'
-                cvv:
-                  type: string
-                  description: Card CVV.
-                referanceCode:
-                  type: string
-                  description: Same-day transaction reference code (IKSIRPF...).
-                  example: IKSIRPF447962
-                hashDatav2:
-                  type: string
-                  description: Request hash.
-                cardHolderIP:
-                  type: string
-                  description: Customer's IPv4 address.
-                isEnch:
-                  type: string
-                  description: Set to `true` only if card data is sent encrypted.
-      responses:
-        '200':
-          description: Card registered
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/BaseResponse'
-
   /Vpos/Payment/CardStorageCardList:
     post:
       operationId: listStoredCards
@@ -826,13 +802,18 @@ paths:
       description: |
         Retrieves all stored cards for a given customer key.
 
+        Cards are stored by calling `/Vpos/v1/Payment` with `csAutoSave=true` and `csCustomerKey`
+        on a successful **3D Secure** transaction; card storage must be enabled for the merchant.
+        If the card is already stored for that customer, the payment succeeds but no new token is returned;
+        use this list to read it.
+
         **Hash computation:**
         `sx + "|" + customerKey + "|" + merchantSecretKey`
       tags: [CardStorage]
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, customerKey, hashDatav2]
@@ -860,18 +841,19 @@ paths:
       operationId: deleteStoredCard
       summary: Delete a stored card
       description: |
-        Deletes a stored card by its tranId or token.
+        Deletes a stored card by its token (read the token from CardStorageCardList first).
 
         **Hash computation:**
         `sx + "|" + customerKey + "|" + tranId + "|" + token + "|" + merchantSecretKey`
+        (`tranId` is not sent; use an empty string for it in the hash.)
       tags: [CardStorage]
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
-              required: [sx, customerKey, hashDatav2]
+              required: [sx, customerKey, token, hashDatav2]
               properties:
                 sx:
                   type: string
@@ -880,10 +862,6 @@ paths:
                   type: string
                   description: Customer identifier (TCKN, phone number, or passport number).
                   example: '05349893742'
-                tranId:
-                  type: string
-                  description: Card transaction ID.
-                  example: yes19474
                 token:
                   type: string
                   description: Card token value.
@@ -914,7 +892,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, amount, referenceCode, trxDate, transactionType, hashDatav2]
@@ -943,7 +921,7 @@ paths:
                   description: Request hash.
                 cardHolderIP:
                   type: string
-                  description: Customer's IPv4 address.
+                  description: Customer's IP address (IPv4 or IPv6).
       responses:
         '200':
           description: Pre-authorization approved
@@ -965,7 +943,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, startDate, endDate, hashDatav2]
@@ -1005,7 +983,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/x-www-form-urlencoded:
+          multipart/form-data:
             schema:
               type: object
               required: [sx, amount, referenceCode, trxDate, transactionType, hashDatav2]
@@ -1043,6 +1021,150 @@ paths:
 # =============================================================================
 # Components
 # =============================================================================
+  # ---------------------------------------------------------------------------
+  # Reporting
+  # ---------------------------------------------------------------------------
+  /Vpos/Payment/PfTransactionReportList:
+    post:
+      operationId: listTransactionReport
+      summary: Transaction report
+      description: |
+        Paginated transaction report for a date range, optionally filtered by your clientReferenceCode
+        or the paynkolay referenceCode. Send a unique clientReferenceCode per transaction; otherwise the
+        filter can match several transactions.
+
+        **Hash computation:**
+        `sx + "|" + startDate + "|" + endDate + "|" + clientReferenceCode + "|" + referenceCode + "|" + merchantSecretKey`
+      tags: [Reporting]
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [sx, startDate, endDate, hashDatav2]
+              properties:
+                sx:
+                  type: string
+                  description: Merchant token (sx-list variant).
+                startDate:
+                  type: string
+                  description: Start date (DD.MM.YYYY).
+                  example: '10.11.2026'
+                endDate:
+                  type: string
+                  description: End date (DD.MM.YYYY).
+                  example: '11.11.2026'
+                clientReferenceCode:
+                  type: string
+                  description: Your reference code used in the transaction.
+                referenceCode:
+                  type: string
+                  description: paynkolay reference code (IKSIRPF...).
+                hashDatav2:
+                  type: string
+                  description: Request hash.
+                pageCount:
+                  type: string
+                  description: Page index (starts from 1).
+                  example: '1'
+                pageSize:
+                  type: string
+                  description: Results per page.
+                  example: '5'
+      responses:
+        '200':
+          description: Transaction report
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionReportResponse'
+
+  # ---------------------------------------------------------------------------
+  # Insurance
+  # ---------------------------------------------------------------------------
+  /Vpos/v1/InsurancePayment:
+    post:
+      operationId: createInsurancePayment
+      summary: Insurance payment with national ID (TCKN)
+      description: |
+        Non-3D payment flow for insurance companies. Requires MCC 6300 and Non Secure permission on the merchant.
+        In addition to standard payment fields, the card BIN, last four digits and the cardholder's TCKN are sent
+        and included in the hash.
+
+        **Hash computation:**
+        `sx + "|" + clientRefCode + "|" + amount + "|" + successUrl + "|" + failUrl + "|" + rnd + "|" + CardBinNumber + "|" + CardLastFour + "|" + CardHolderIdentity + "|" + merchantSecretKey`
+      tags: [Insurance]
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [sx, clientRefCode, successUrl, failUrl, amount, installmentNo, cardHolderName, encodedValue, transactionType, rnd, hashDataV2, currencyNumber, CardBinNumber, CardLastFour, CardHolderIdentity]
+              properties:
+                sx:
+                  type: string
+                  description: Merchant token.
+                clientRefCode:
+                  type: string
+                  description: Your reference code.
+                  example: REF-12345
+                successUrl:
+                  type: string
+                  format: uri
+                failUrl:
+                  type: string
+                  format: uri
+                amount:
+                  type: string
+                  description: Amount with dot decimal separator.
+                  example: '30.00'
+                installmentNo:
+                  type: string
+                  example: '1'
+                cardHolderName:
+                  type: string
+                encodedValue:
+                  type: string
+                  description: Encrypted card data.
+                transactionType:
+                  type: string
+                  enum: [SALES]
+                rnd:
+                  type: string
+                  example: '2025-03-05T15:27:05.597196'
+                hashDataV2:
+                  type: string
+                  description: Request hash.
+                currencyNumber:
+                  type: string
+                  example: '949'
+                merchantCustomerNo:
+                  type: string
+                  description: Your internal customer number.
+                CardBinNumber:
+                  type: string
+                  description: First 8 digits of the card.
+                  example: '49384101'
+                CardLastFour:
+                  type: string
+                  example: '5591'
+                CardHolderIdentity:
+                  type: string
+                  description: Cardholder's TCKN.
+                  example: '74924239426'
+                cardHolderIP:
+                  type: string
+                  description: Customer's IP address (IPv4 or IPv6).
+      responses:
+        '200':
+          description: Payment response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentResponse'
+
 components:
   schemas:
     PaymentRequest:
@@ -1135,7 +1257,7 @@ components:
           example: MS-34345
         cardHolderIP:
           type: string
-          description: Customer's IPv4 address.
+          description: Customer's IP address (IPv4 or IPv6).
           example: '23.245.245.222'
         description:
           type: string
@@ -1176,7 +1298,7 @@ components:
 
     RecurringPaymentCreateRequest:
       type: object
-      required: [sx, Amount, Gsm, ClientRefCode, hashDatav2]
+      required: [sx, Instalment, InstalmentPeriod, CustomerName, CustomerSurname, ClientRefCode, PaymentStartChose, PaymentStartDate, Email, Gsm, Amount, hashDatav2, cardHolderIP]
       properties:
         sx:
           type: string
@@ -1236,7 +1358,35 @@ components:
           description: Request hash.
         cardHolderIP:
           type: string
-          description: Customer's IPv4 address.
+          description: Customer's IP address (IPv4 or IPv6).
+
+    TransactionReportResponse:
+      type: object
+      properties:
+        responseCode:
+          type: integer
+          example: 2
+        responseData:
+          type: string
+          example: Operation successful.
+        List:
+          type: array
+          items:
+            type: object
+            properties:
+              authCode: {type: string, example: S05590}
+              trxDate: {type: string, example: '27.07.2026 00:00:00'}
+              installmentCount: {type: integer, example: 1}
+              authorizationAmount: {type: number, example: 100}
+              referenceCode: {type: string, example: IKSIRPF539108}
+              clientReferenceCode: {type: string}
+              status: {type: string, example: SUCCESS}
+              transactionType: {type: string, example: SALES}
+              cardHolderName: {type: string}
+              is3d: {type: boolean}
+              posType: {type: string, example: Sanal POS}
+              currencyCode: {type: string, example: TRY}
+              valorDate: {type: string, example: '28.07.2026 00:00:00'}
 
     BaseResponse:
       type: object
