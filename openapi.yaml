@@ -64,15 +64,10 @@ info:
 
     ## Test Credentials
 
-    The test environment is shared and these credentials are public. Use them with the **Test** server only.
-    Test merchant: **400000273** (client id `118591467`). Production credentials are shown in your paynkolay panel.
+    Test credentials (sx, sx-list, sx-cancel, merchantSecretKey) are provided on the documentation site.
+    Use them with the **Test** server only. Production credentials are shown in your paynkolay panel.
 
-    | Credential | Value |
-    |------------|-------|
-    | **sx** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==` |
-    | **sx-list** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==\|3hJpHVF2cqvcCZ4q6F7rcA==` |
-    | **sx-cancel** | `118591467\|W8a1JLU8A5Cw+HfadVcO6HiR/GGGxr0NkWr2OGythr8fo0YWdw70cvnI6oKMqvzra3Qu+Wa5u0NRil9gRdJmjocVNd4XciDwfD9+pkVqDErw7/pVZfpcSO+GePg+ZvcqFbOO5A==\|yDUZaCk6rsoHZJWI3d471A/+TJA7C81X` |
-    | **merchantSecretKey** | `_viH5wUS4HiBmmw9uGybN` |
+    See: https://paynkolay.com.tr/entegrasyon/
 
     Insurance payments (`/Vpos/v1/InsurancePayment`) use separate test merchants (400001647, 400001820);
     see https://paynkolay.com.tr/entegrasyon/46-insurance-payment.php
